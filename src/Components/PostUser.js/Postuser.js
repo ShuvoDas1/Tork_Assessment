@@ -23,7 +23,7 @@ const Postuser = () => {
     };
     return (
         <>
-        <div className='container'>
+        <div className='container my-5'>
            <form onSubmit={handleSubmit(onSubmit)}>
                 <div className='row'>
                     <div className='col'>

@@ -19,7 +19,7 @@ const GetUser = () => {
     return (
         <div className='user'>
             <h1>Token is: {token.csrf_token}</h1>
-            <Button variant="primary" className='btn' onClick={goTo}>Go To</Button>
+            <Button variant="primary" className='btn' onClick={goTo}>Post Data</Button>
         </div>
     );
 };
